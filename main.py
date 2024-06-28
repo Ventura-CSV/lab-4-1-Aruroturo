@@ -1,9 +1,7 @@
 def main():
 
     N = int(input('Enter the number N: '))
-    result = []
-    for i in range(N+1):
-        result.append(3 ** i)
+    result = [2 ** i for i in range(N + 1)]
     print(result)
 
     """
